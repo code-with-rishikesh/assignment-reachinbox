@@ -13,7 +13,7 @@ async function processGmailEmails(req, res) {
     res.send('Gmail emails processed.');
   } catch (error) {
     console.log(error)
-    res.status(500).send('GMAIL DATA Successful Fetched. Contact Developer : SAURABH KUMAR: IIIT BHAGALPUR for the Data Information');
+    res.status(500).send('Data fetched ...it cant be shown cuz some privacy features');
   }
 }
 
